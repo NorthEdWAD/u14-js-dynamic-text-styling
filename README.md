@@ -81,8 +81,11 @@ When finished, your page will contain six (6) buttons.
 <button id="button id goes here">Button Text Here</button>
 ```
 - First button id: `colorButton`
+  - Button text: Change Color
 - Second button id: `sizeButton`
+  - Button text: Change Size
 - Third button id: `fontButton`
+  - Button text: Change Font
 
 **You'll add the other three buttons and button IDs later.**
 
