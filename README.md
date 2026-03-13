@@ -155,3 +155,21 @@ document.documentElement.style.setProperty('--bg-color', 'lightblue');
         -  To change the text font, use `#fontButton` and the CSS variable `--text-font`
         -  To change the text weight, use `#weightButton` and the CSS variable `--text-weight`
 ---
+
+
+### Adding a Reset Button
+
+To add a RESET button to your page, add this block of code to your JavaScript:
+
+```javascript
+   // RESET button to reset all styles
+      document.querySelector("#resetButton").addEventListener("click", () => {
+        document.documentElement.style.setProperty('--text-color', 'black');
+        document.documentElement.style.setProperty('--text-size', '16px');
+        document.documentElement.style.setProperty('--text-font', 'Arial, sans-serif');
+        document.documentElement.style.setProperty('--text-weight', 'normal');
+      });
+
+```
+
+---
