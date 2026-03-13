@@ -16,7 +16,7 @@ You'll learn how to use CSS variables, the JS `querySelector()` method, event li
 
 ---
 
-### About Event Listeners in JavaScript
+### Events & Event Listeners in JavaScript
 
 - **event:** In JavaScript, an **event** is like a signal that something happened -- such as a click, a keypress, or the page loading.
   - You can write code to "listen" for these events and make something happen in response, like changing a color or showing a message on your web page!
