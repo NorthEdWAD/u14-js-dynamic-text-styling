@@ -70,4 +70,23 @@ document.documentElement.style.setProperty('--bg-color', 'lightblue');
 
 ---
 
+### Adding Buttons
+
+When finished, your page will contain six (6) buttons.
+
+1. For today, though, just add three (3) buttons using the HTML `<button>` element.
+2. Give each of the three buttons a unique identity using the HTML `id` attribute.
+
+```html
+<button id="button id goes here">Button Text Here</button>
+```
+- First button id: `colorButton`
+- Second button id: `sizeButton`
+- Third button id: `fontButton`
+```
+**You'll add the other three buttons and button IDs later.**
+
+---
+
+
 
