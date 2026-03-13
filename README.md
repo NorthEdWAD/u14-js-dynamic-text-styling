@@ -31,3 +31,22 @@ document.querySelector("#colorButton").addEventListener("click", () => {
 });
 
 ```
+---
+
+### Click-Related Events 
+
+Here are three commonly used **click-related events** in JavaScript:
+
+1. **`click`**
+   - Triggered when a user clicks (presses and releases) a mouse button on an element.
+   - Example: `element.addEventListener("click", () => { ... });`
+
+2. **`dblclick`**
+   - Triggered when a user double-clicks an element (two quick clicks in a row).
+   - Example: `element.addEventListener("dblclick", () => { ... });`
+
+3. **`mousedown`**
+   - Triggered when a user presses (but doesn’t release) a mouse button on an element.
+   - Example: `element.addEventListener("mousedown", () => { ... });`
+
+---
