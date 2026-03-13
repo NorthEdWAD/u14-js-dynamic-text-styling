@@ -10,9 +10,7 @@ You'll learn how to use CSS variables, the JS `querySelector()` method, event li
 ### Helpful Resources
 
 - [Creating a CSS variable](https://www.w3schools.com/css/css3_variables.asp)
-- [The `querySelector()` method in JavaScript]()
-- [The `setProperty()` method in JavaScript]()
-
+- [The `querySelector()` method](https://www.w3schools.com/jsref/met_document_queryselector.asp)
 
 ---
 
@@ -50,3 +48,26 @@ Here are three commonly used **click-related events** in JavaScript:
    - Example: `element.addEventListener("mousedown", () => { ... });`
 
 ---
+
+### The JS `setProperty()` Method
+
+Here’s a simple example of using the `setProperty()` method in JavaScript:
+
+```javascript
+// Change the background color of the entire page to light blue
+document.documentElement.style.setProperty('--bg-color', 'lightblue');
+```
+
+**How it works:**
+- This line of JavaScript sets a CSS variable called `--bg-color` to the value `'lightblue'` on the `<html>` element (the root element of the web page).
+- In your style sheet, you define a CSS variable like so:
+  ```css
+  body {
+    background-color: var(--bg-color);
+  }
+  ```
+- When your JavaScript runs, the background color of the page will change to light blue!
+
+---
+
+
