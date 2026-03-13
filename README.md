@@ -148,4 +148,10 @@ document.documentElement.style.setProperty('--bg-color', 'lightblue');
           document.documentElement.style.setProperty('--text-color', 'blue');
       }); // Pay attention to the punctuation and symbols used here or your JS won't work!
       ```
+    -  For each event listener, update:
+      - the **id selector** and the CSS variable that comes after the `setProperty()` method
+        -  To change the text color, use `#colorButton` and the CSS variable `--text-color`
+        -  To change the text size, use `#sizeButton` and the CSS variable `--text-size`
+        -  To change the text font, use `#fontButton` and the CSS variable `--text-font`
+        -  To change the text weight, use `#weightButton` and the CSS variable `--text-weight`
 ---
