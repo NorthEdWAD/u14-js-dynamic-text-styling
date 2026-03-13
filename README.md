@@ -109,7 +109,7 @@ document.querySelector("#colorButton").addEventListener("click", () => {   });
 // Change text color
 document.querySelector("#colorButton").addEventListener("click", () => {
     document.documentElement.style.setProperty('--text-color', 'blue');
-}); // Pay attention to the punctuation and symbols used here!
+}); // Pay attention to the punctuation and symbols used here or your JS won't work!
 ```
 
 
