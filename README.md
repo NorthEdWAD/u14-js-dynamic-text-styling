@@ -83,7 +83,7 @@ When finished, your page will contain six (6) buttons.
 - First button id: `colorButton`
 - Second button id: `sizeButton`
 - Third button id: `fontButton`
-```
+
 **You'll add the other three buttons and button IDs later.**
 
 ---
