@@ -14,6 +14,24 @@ You'll learn how to use CSS variables, the JS `querySelector()` method, event li
 
 ---
 
+### Part 1: CSS Variables Practice
+
+- To your `js-intro` repo, add two new files: `css-variables.html` and `css.variables.css`
+- Link the web page to your style sheet
+- To `css.variables.css`, add:
+  - a CSS comment block
+  - the CSS reset rule
+  - a CSS rule for the `:root` element
+    - Add a CSS variable named `text-color`
+    - Add a CSS variable named `text-size`
+    - Add a CSS variable named `text-font`
+    - Add a CSS variable named `text-weight`
+  - a CSS rule for an HTML element with an `id` of `#myElement`
+    - To this `#myElement` rule:
+      - Apply a CSS variable named `text-color` to the `color` property
+      - Apply a CSS variable named `text-size` to the `font-size` property
+      - Apply a CSS variable named `text-font` to the `font-family` property
+      - Apply a CSS variable named `text-weight` to the `font-weight` property
 
 
 
