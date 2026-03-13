@@ -31,10 +31,14 @@ You'll learn how to use CSS variables, the JS `querySelector()` method, event li
       - Apply a CSS variable named `text-color` to the `color` property
       - Apply a CSS variable named `text-size` to the `font-size` property
       - Apply a CSS variable named `text-font` to the `font-family` property
-      - Apply a CSS variable named `text-weight` to the `font-weight` property
+      - Apply a CSS variable named `text-weight` to the `font-weight` property  
+      
+### Finished Creating Your CSS Variables?
 
+- Take a screenshot/screenshots of this project's style sheet
+- Email the screenshot(s) to your teacher
 
-
+---
 
 ```javascript
 document.querySelector("#colorButton").addEventListener("click", () => {
