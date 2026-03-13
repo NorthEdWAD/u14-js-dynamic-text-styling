@@ -1,1 +1,3 @@
-# u14-js-dynamic-text-styling
+# Intro to JavaScript
+## Dynamic Text Styling
+
