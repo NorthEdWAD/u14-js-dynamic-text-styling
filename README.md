@@ -135,4 +135,17 @@ document.documentElement.style.setProperty('--bg-color', 'lightblue');
 
 ---
 
+### Adding Event Listeners, Arrow Functions and the `.setProperty()` Method to Your JavaScript File
 
+- **See STEP 3 above under Events & Event Listeners**
+- Add four (4) event listeners and arrow functions as shown in STEP 3
+  - Each event listener will be triggered using the `click` event
+  - The arrow function for each event listener will use the `setProperty()` method to change -- on the fly -- the **value** of a specific **CSS variable**
+    - For example, the code below will update the value of the `--text-color` CSS variable to `blue` (black is the default value):
+        ```javascript
+        // Change value of CSS variable named text-color
+      document.querySelector("#colorButton").addEventListener("click", () => {
+          document.documentElement.style.setProperty('--text-color', 'blue');
+      }); // Pay attention to the punctuation and symbols used here or your JS won't work!
+      ```
+---
