@@ -18,8 +18,12 @@ You'll learn how to use CSS variables, the JS `querySelector()` method, event li
 
 ### About Event Listeners in JavaScript
 
-- **event:** text
-- **event listener:**: text
+- **event:** In JavaScript, an **event** is like a signal that something happened -- such as a click, a keypress, or the page loading.
+  - You can write code to "listen" for these events and make something happen in response, like changing a color or showing a message on your web page!
+- **event listener:**: An event listener is like a little helper that waits for something to happen -- such as when the user clicks a button or presses a key on their keyboard. When that thing happens, the event listener runs the code you wrote to make something cool happen, like swapping one image for another or changing the background color of your web page.
+
+
+
 
 ```javascript
 document.querySelector("#colorButton").addEventListener("click", () => {
