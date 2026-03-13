@@ -48,45 +48,6 @@ document.querySelector("#colorButton").addEventListener("click", () => {
 ```
 ---
 
-### Click-Related Events 
-
-Here are three commonly used **click-related events** in JavaScript:
-
-1. **`click`**
-   - Triggered when a user clicks (presses and releases) a mouse button on an element.
-   - Example: `element.addEventListener("click", () => { ... });`
-
-2. **`dblclick`**
-   - Triggered when a user double-clicks an element (two quick clicks in a row).
-   - Example: `element.addEventListener("dblclick", () => { ... });`
-
-3. **`mousedown`**
-   - Triggered when a user presses (but doesn’t release) a mouse button on an element.
-   - Example: `element.addEventListener("mousedown", () => { ... });`
-
----
-
-### The JS `setProperty()` Method
-
-Here’s a simple example of using the `setProperty()` method in JavaScript:
-
-```javascript
-// Change the background color of the entire page to light blue
-document.documentElement.style.setProperty('--bg-color', 'lightblue');
-```
-
-**How it works:**
-- This line of JavaScript sets a CSS variable called `--bg-color` to the value `'lightblue'` on the `<html>` element (the root element of the web page).
-- In your style sheet, you apply (use) a CSS variable you've already defined like this:
-  ```css
-  body {
-    background-color: var(--bg-color);
-  }
-  ```
-- When your JavaScript runs, the background color of the page will change to light blue!
-
----
-
 ### Adding Buttons
 
 When finished, your page will contain six (6) buttons.
@@ -133,7 +94,45 @@ document.querySelector("#colorButton").addEventListener("click", () => {
     document.documentElement.style.setProperty('--text-color', 'blue');
 }); // Pay attention to the punctuation and symbols used here or your JS won't work!
 ```
+---
 
+### Click-Related Events 
 
+Here are three commonly used **click-related events** in JavaScript:
+
+1. **`click`**
+   - Triggered when a user clicks (presses and releases) a mouse button on an element.
+   - Example: `element.addEventListener("click", () => { ... });`
+
+2. **`dblclick`**
+   - Triggered when a user double-clicks an element (two quick clicks in a row).
+   - Example: `element.addEventListener("dblclick", () => { ... });`
+
+3. **`mousedown`**
+   - Triggered when a user presses (but doesn’t release) a mouse button on an element.
+   - Example: `element.addEventListener("mousedown", () => { ... });`
+
+---
+
+### The JS `setProperty()` Method
+
+Here’s a simple example of using the `setProperty()` method in JavaScript:
+
+```javascript
+// Change the background color of the entire page to light blue
+document.documentElement.style.setProperty('--bg-color', 'lightblue');
+```
+
+**How it works:**
+- This line of JavaScript sets a CSS variable called `--bg-color` to the value `'lightblue'` on the `<html>` element (the root element of the web page).
+- In your style sheet, you apply (use) a CSS variable you've already defined like this:
+  ```css
+  body {
+    background-color: var(--bg-color);
+  }
+  ```
+- When your JavaScript runs, the background color of the page will change to light blue!
+
+---
 
 
