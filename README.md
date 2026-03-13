@@ -60,7 +60,7 @@ document.documentElement.style.setProperty('--bg-color', 'lightblue');
 
 **How it works:**
 - This line of JavaScript sets a CSS variable called `--bg-color` to the value `'lightblue'` on the `<html>` element (the root element of the web page).
-- In your style sheet, you define a CSS variable like so:
+- In your style sheet, you apply (use) a CSS variable you've already defined like this:
   ```css
   body {
     background-color: var(--bg-color);
